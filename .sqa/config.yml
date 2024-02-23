@@ -1,0 +1,42 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: feature/fair-epos-prototype
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/IFCA-Advanced-Computing/frouros:
+      branch: main
+      repo: https://github.com/IFCA-Advanced-Computing/frouros
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/IFCA-Advanced-Computing/frouros git:
+        commands:
+        - /usr/bin/env sh .sqa/script.muzzy-eggplant-lizard.sh
+        container: qc.acc_sleepy-buff-bonobo
+  QC.Doc:
+    repos:
+      github.com/IFCA-Advanced-Computing/frouros find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.cheeky-heliotrope-lizard.sh
+        container: qc.doc_droopy-alizarin-booby
+      github.com/IFCA-Advanced-Computing/frouros git:
+        commands:
+        - /usr/bin/env sh .sqa/script.stuffy-amethyst-rattlesnake.sh
+        container: qc.doc_clammy-white-rottweiler
+  QC.Lic:
+    repos:
+      github.com/IFCA-Advanced-Computing/frouros licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.queasy-brown-crane.sh
+        container: qc.lic_leaky-platinum-urchin
+  QC.Ver:
+    repos:
+      github.com/IFCA-Advanced-Computing/frouros get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.freaky-buff-ibis.sh
+        container: qc.ver_chewy-cornflower-olm
+timeout: 5400
