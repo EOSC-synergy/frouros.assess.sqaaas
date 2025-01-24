@@ -1168,10 +1168,10 @@
                 },
                 "silver": {
                     "to_fulfill": [
+                        "QC.Met",
                         "QC.Acc",
                         "QC.Lic",
                         "QC.Ver",
-                        "QC.Met",
                         "QC.Doc"
                     ],
                     "missing": [
@@ -1179,55 +1179,55 @@
                     ],
                     "fulfilled": [
                         "QC.Acc",
-                        "QC.Ver",
                         "QC.Lic",
+                        "QC.Ver",
                         "QC.Doc"
                     ]
                 },
                 "gold": {
                     "to_fulfill": [
+                        "QC.Met",
                         "QC.Acc",
+                        "QC.Lic",
                         "QC.Sec",
                         "QC.Uni",
-                        "QC.Lic",
-                        "QC.Ver",
                         "QC.Sty",
-                        "QC.Met",
+                        "QC.Ver",
                         "QC.Doc"
                     ],
                     "missing": [
+                        "QC.Met",
                         "QC.Sec",
                         "QC.Uni",
-                        "QC.Sty",
-                        "QC.Met"
+                        "QC.Sty"
                     ],
                     "fulfilled": [
                         "QC.Acc",
-                        "QC.Ver",
                         "QC.Lic",
+                        "QC.Ver",
                         "QC.Doc"
                     ]
                 }
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "pp14EHoOSyq1kebJcbPX1g",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/pp14EHoOSyq1kebJcbPX1g",
-                "createdAt": "2025-01-06T06:03:23.249214446Z",
+                "entityId": "IBNBiASZRoi4PG0EN_llrA",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/IBNBiASZRoi4PG0EN_llrA",
+                "createdAt": "2025-01-24T11:20:04.414689963Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/pp14EHoOSyq1kebJcbPX1g/image",
+                "image": "https://api.eu.badgr.io/public/assertions/IBNBiASZRoi4PG0EN_llrA/image",
                 "recipient": {
-                    "identity": "sha256$2105f6517561c0840e369353992d8fcc0906f094c079498bb71cf1175ef9b165",
+                    "identity": "sha256$4aa94cc2071c6796f71403be08cb45f4c1fde75a7a0aeb9510299486c3c12038",
                     "hashed": true,
                     "type": "url",
-                    "salt": "jCI4H24vA8353ueE",
+                    "salt": "5BdM6Wl5BS448qIZ",
                     "plaintextIdentity": "https://github.com/IFCA-Advanced-Computing/frouros"
                 },
-                "issuedOn": "2025-01-06T06:03:23.249216617Z",
+                "issuedOn": "2025-01-24T11:20:04.414690341Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/IFCA-Advanced-Computing/frouros (commit: cfb5e4a723f5919f7222a32bfb9987317021642a, branch/tag: main)",
                 "evidence": [
                     {
@@ -1245,7 +1245,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/pp14EHoOSyq1kebJcbPX1g"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/IBNBiASZRoi4PG0EN_llrA"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1257,10 +1257,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-pp14EHoOSyq1kebJcbPX1g.png"
+                "imagePath": "uploads/badges/assertion-IBNBiASZRoi4PG0EN_llrA.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/pp14EHoOSyq1kebJcbPX1g?identity__url=https%3A//github.com/EOSC-synergy/frouros.assess.sqaaas/commit/c01e60864cbf766285f8335e5b6a3bcd09814bb5\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/pp14EHoOSyq1kebJcbPX1g/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2Fpp14EHoOSyq1kebJcbPX1g?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ffrouros.assess.sqaaas%2Fcommit%2Fc01e60864cbf766285f8335e5b6a3bcd09814bb5&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ffrouros.assess.sqaaas%2Fcommit%2Fc01e60864cbf766285f8335e5b6a3bcd09814bb5"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/IBNBiASZRoi4PG0EN_llrA?identity__url=https%3A//github.com/EOSC-synergy/frouros.assess.sqaaas/commit/c01e60864cbf766285f8335e5b6a3bcd09814bb5\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/IBNBiASZRoi4PG0EN_llrA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FIBNBiASZRoi4PG0EN_llrA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ffrouros.assess.sqaaas%2Fcommit%2Fc01e60864cbf766285f8335e5b6a3bcd09814bb5&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ffrouros.assess.sqaaas%2Fcommit%2Fc01e60864cbf766285f8335e5b6a3bcd09814bb5"
         }
     }
 }
